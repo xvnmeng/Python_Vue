@@ -10,6 +10,10 @@ vue-element-admin/tests/**/coverage/
 vue-element-admin/tests/e2e/reports
 selenium-debug.log
 
+
+vue-element-admin/.git/
+vue-element-admin/.github/
+
 # Editor directories and files
 .idea
 .vscode
