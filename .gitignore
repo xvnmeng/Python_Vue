@@ -5,6 +5,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 **/*.log
+001.py
+test-001.py
 
 vue-element-admin/tests/**/coverage/
 vue-element-admin/tests/e2e/reports
