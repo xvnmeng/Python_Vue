@@ -1,5 +1,6 @@
 // import parseTime, formatTime and set to filter
-export { parseTime, formatTime } from '@/utils'
+export { parseTime, formatTime }
+  from '@/utils'
 
 /**
  * Show plural label if time is plural number
@@ -17,6 +18,7 @@ function pluralize(time, label) {
 /**
  * @param {number} time
  */
+// 返回多少分钟以前
 export function timeAgo(time) {
   const between = Date.now() / 1000 - Number(time)
   if (between < 3600) {

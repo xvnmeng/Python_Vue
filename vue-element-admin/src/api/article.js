@@ -1,6 +1,6 @@
 import request from '@/utils/request'
 
-// 获取列表
+// 获取列表，传入查询条件
 export function fetchList(query) {
   return request({
     url: '/article/list',
@@ -9,7 +9,7 @@ export function fetchList(query) {
   })
 }
 
-// 获取文章，返回id
+// 获取文章，传入id
 export function fetchArticle(id) {
   return request({
     url: '/article/detail',

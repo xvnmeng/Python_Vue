@@ -192,8 +192,8 @@ export default {
           // 传送登录表单内容到，登录接口
           // 重新匹配路由，加载其他查询
           // this.otherQuery与getOtherQuery有关
-          // this.$store.dispatch('user/login', this.loginForm)
-          this.$store.dispatch('http://127.0.0.1:8000/login', this.loginForm)
+          this.$store.dispatch('user/login', this.loginForm)
+          // this.$store.dispatch('http://127.0.0.1:8000/login', this.loginForm)
             .then(() => {
               this.$router.push({ path: this.redirect || '/', query: this.otherQuery })
               // 终止加载状态
@@ -219,7 +219,6 @@ export default {
   }
 }
 </script>
-
 
 <!-- 样式修饰 -->
 <style lang="scss">
@@ -268,7 +267,6 @@ $cursor: #fff;
   }
 }
 </style>
-
 
 <!-- 位置修饰 -->
 <style lang="scss" scoped>

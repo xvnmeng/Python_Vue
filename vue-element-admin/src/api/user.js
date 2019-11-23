@@ -2,6 +2,7 @@ import request from '@/utils/request'
 
 // 登录
 export function login(data) {
+  // request是导入文件的引用借口 server
   return request({
     url: '/user/login',
     method: 'post',
