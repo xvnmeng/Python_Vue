@@ -38,5 +38,5 @@ urlpatterns = [
     path('index/', index),
     path('login', login),
     path('index', index),
-    path('test', login),
+    path('index_simple', login),
 ]
